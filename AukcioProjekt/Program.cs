@@ -11,6 +11,13 @@ namespace AukcioProjekt
     {
         static void Main(string[] args)
         {
+            Festmeny a = new Festmeny("Mona Lisa", "Máté", "barokk");
+            a.Kiir();
+            a.Licit();
+            a.Kiir();
+
+
+            Console.Read();
         }
     }
 }
